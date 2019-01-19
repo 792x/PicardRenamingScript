@@ -1,0 +1,1 @@
+$if2(%albumartist%,%artist%)/$if($ne(%albumartist%,),%originalyear% - %album% - [$upper(%_extension%)]/,)$if($gt(%totaldiscs%,1),%discnumber% - ,)$if($ne(%albumartist%,),$num(%tracknumber%,2) ,)$if(%_multiartist%,%artist% - ,)%title%
